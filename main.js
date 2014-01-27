@@ -6,5 +6,13 @@ angular.module("MyApp", ["firebase"])
 
 		$scope.addOne = function(){
 			issuesRef.push( {title:$scope.title, body:$scope.body} );
+
+
+
+
+
+
+
+			
 		};
 	});
